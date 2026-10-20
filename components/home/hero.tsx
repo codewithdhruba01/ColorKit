@@ -160,9 +160,9 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
-                    className="mb-6 md:mb-8"
+                    className="mb-5 md:mb-6"
                 >
-                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 text-xs font-medium text-black/80 dark:text-white/80 hover:bg-black/10 dark:hover:bg-white/10 transition-colors cursor-default">
+                    <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 text-[11px] sm:text-xs font-medium text-black/80 dark:text-white/80 hover:bg-black/10 dark:hover:bg-white/10 transition-colors cursor-default">
                         New version v2.6.0
                         <span className="text-orange-500 dark:text-orange-400">🔥</span>
                         <ArrowRight className="w-3 h-3 text-black/50 dark:text-white/50" />
@@ -174,11 +174,11 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-                    className="mb-6 max-w-4xl mx-auto"
+                    className="mb-5 max-w-3xl mx-auto"
                 >
                     <InteractiveHoverText
                         text="Make beautiful websites regardless of your color experience"
-                        className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] text-neutral-950 dark:text-white"
+                        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] text-neutral-950 dark:text-white"
                     />
                 </motion.div>
 
@@ -187,7 +187,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-                    className="text-base md:text-xl text-neutral-600 dark:text-white/60 max-w-2xl mx-auto mb-10 px-4"
+                    className="text-sm sm:text-base md:text-lg text-neutral-600 dark:text-white/60 max-w-xl mx-auto mb-8 px-4 leading-relaxed"
                 >
                     Design the perfect color palette or discover endless inspiration from thousands of curated color schemes.
                 </motion.p>
@@ -197,19 +197,19 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
-                    className="flex flex-col sm:flex-row items-center gap-4 mb-20 md:mb-24"
+                    className="flex flex-col sm:flex-row items-center gap-3.5 mb-16 md:mb-20"
                 >
                     <Link href="/picker">
                         <Button
-                            className="h-12 px-16 sm:h-12 sm:px-8 rounded-full bg-black dark:bg-white text-white dark:text-black hover:bg-black/80 dark:hover:bg-white/90 font-medium text-sm sm:text-base transition-all active:scale-95 shadow-lg shadow-black/20 dark:shadow-white/5"
+                            className="h-11 px-7 rounded-full bg-black dark:bg-white text-white dark:text-black hover:bg-black/80 dark:hover:bg-white/90 font-medium text-sm transition-all active:scale-95 shadow-lg shadow-black/20 dark:shadow-white/5"
                         >
-                            Get Started <ArrowRight className="ml-2 w-4 h-4" />
+                            Get Started <ArrowRight className="ml-2 w-3.5 h-3.5" />
                         </Button>
                     </Link>
 
                     <Link href="/palettes">
                         <Button
-                            className="h-12 px-12 sm:h-12 sm:px-8 rounded-full bg-white dark:bg-black text-black dark:text-white border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10 font-medium text-sm sm:text-base transition-all active:scale-95"
+                            className="h-11 px-7 rounded-full bg-white dark:bg-black text-black dark:text-white border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10 font-medium text-sm transition-all active:scale-95"
                         >
                             Explore Palettes
                         </Button>
