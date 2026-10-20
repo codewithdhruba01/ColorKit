@@ -42,7 +42,7 @@ export default function PickerPage() {
 
         <main className="flex-1 container mx-auto px-4 pt-24 pb-20 sm:pt-32">
           <motion.div
-            className="max-w-6xl mx-auto space-y-12"
+            className="max-w-5xl mx-auto space-y-12"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
